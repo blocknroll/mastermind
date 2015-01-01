@@ -1,4 +1,5 @@
 class Mastermind
+
   def execute(input)
     secret = "BBGB"
     if input == secret
@@ -7,4 +8,5 @@ class Mastermind
       "Guess again!"
     end
   end
+  
 end

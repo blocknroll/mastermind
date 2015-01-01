@@ -1,8 +1,10 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/mastermind'
+require './lib/board'
 
 class MastermindTest < Minitest::Test
+
   def test_it_exists
     assert MastermindTest
   end
@@ -12,4 +14,5 @@ class MastermindTest < Minitest::Test
     result = mm.execute("BBGB")
     assert result.downcase.include?("win")
   end
+
 end

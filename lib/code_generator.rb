@@ -15,7 +15,7 @@ class CodeGenerator
 
     # puts secret_code                # un-comment & run file to test
 
-    secret_code = 'rrrr'  # hard-coded secret for testing
+    secret_code = 'rgby'  # hard-coded secret for testing
 
   end
 end

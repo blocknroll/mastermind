@@ -8,12 +8,11 @@ class Validator
 
     elsif input.length > 4
       [Messages.guess_too_long, :signal]
-      # return puts Messages.guess_too_long
 
-    elsif input.length == 4   #@secret.length
+    elsif input.length == 4
       ["Just right", :ready_for_eval]
     end
   end
 end
 
-# could use many more validations here...
+# need more validations here...

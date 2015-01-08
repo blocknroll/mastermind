@@ -31,7 +31,7 @@ class Game
     if feedback[1] == :ready_for_eval
       evaluator.evaluate(input, secret_code)
     else feedback[1] != :ready_for_eval
-      feedback
+      p feedback[0]
     end
 
     # Rachel's code:
